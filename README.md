@@ -4,3 +4,6 @@ Question 51 : https://leetcode.com/problems/reverse-only-letters/description/
 
 Question 52 : https://leetcode.com/problems/valid-anagram/description/?envType=daily-question&envId=2023-12-16
 
+Question 53 : https://leetcode.com/problems/k-diff-pairs-in-an-array/description/
+
+Question 54 : https://leetcode.com/problems/find-k-closest-elements/description/
