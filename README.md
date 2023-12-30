@@ -9,3 +9,5 @@ Question 53 : https://leetcode.com/problems/k-diff-pairs-in-an-array/description
 Question 54 : https://leetcode.com/problems/find-k-closest-elements/description/
 
 Question 55 : https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/description/?envType=daily-question&envId=2023-12-30
+
+Question 56 : https://leetcode.com/problems/search-insert-position/description/
