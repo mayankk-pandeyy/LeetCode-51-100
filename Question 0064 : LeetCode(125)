@@ -1,0 +1,59 @@
+Time Complexity : O(N)
+Space Complexity : O(N)
+
+class Solution {
+public:
+    bool isPalindrome(string s) {
+        vector<char> characters;
+        for(int i=0; i<s.length(); i++){
+            if(s[i]-'A'>=0 && s[i]-'A'<26){
+                char ch = s[i]-'A'+'a';
+                characters.push_back(ch);
+            }else if(s[i]-'a'>=0 && s[i]-'a'<26){
+                characters.push_back(s[i]);
+            }else if(s[i]>='0' && s[i]<='9'){
+                characters.push_back(s[i]);
+            }
+        }
+        int start = 0;
+        int end = characters.size()-1;
+        while(start<end){
+            if(characters[start]==characters[end]){
+                start++;
+                end--;
+            }else{
+                return false;
+            }
+        }
+        return true;
+    }
+};
+
+..................................................................
+Time Complexity : O(N)
+Space Complexity : O(1)
+class Solution {
+public:
+    bool isPalindrome(string s) {
+       int start=0;
+       int end=s.size()-1;
+       while(start<=end){
+           if(!isalnum(s[start])){
+               start++;
+               continue;
+           }
+           if(!isalnum(s[end])){
+               end--;
+               continue;
+           }
+           if(tolower(s[start])!=tolower(s[end])){
+               return false;
+           }
+           else{
+               start++;
+               end--;
+           }
+       }
+       return true;
+    }
+};
