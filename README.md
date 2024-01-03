@@ -18,6 +18,6 @@ Question 58 : https://leetcode.com/problems/assign-cookies/description/
 
 Question 59 : https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/description/
 
-Question 61 : https://leetcode.com/problems/reverse-string/description/
+Question 60 : https://leetcode.com/problems/reverse-string/description/
 
 Question 62 : https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/description/
