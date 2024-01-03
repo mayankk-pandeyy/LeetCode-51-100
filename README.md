@@ -23,3 +23,5 @@ Question 60 : https://leetcode.com/problems/reverse-string/description/
 Question 62 : https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/description/
 
 Question 63 : https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/description/
+
+qUESTION 64 : https://leetcode.com/problems/valid-palindrome/description/
