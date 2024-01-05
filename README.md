@@ -24,4 +24,8 @@ Question 62 : https://leetcode.com/problems/greatest-english-letter-in-upper-and
 
 Question 63 : https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/description/
 
-qUESTION 64 : https://leetcode.com/problems/valid-palindrome/description/
+Question 64 : https://leetcode.com/problems/valid-palindrome/description/
+
+Question 65 : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/
+
+Question 66 : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/
