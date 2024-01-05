@@ -29,3 +29,5 @@ Question 64 : https://leetcode.com/problems/valid-palindrome/description/
 Question 65 : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/
 
 Question 66 : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/
+
+Question 67 : https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
