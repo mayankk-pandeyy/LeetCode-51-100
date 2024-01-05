@@ -31,3 +31,9 @@ Question 65 : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-st
 Question 66 : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/
 
 Question 67 : https://leetcode.com/problems/remove-all-occurrences-of-a-substring/description/
+
+Question 68 : https://leetcode.com/problems/valid-palindrome-ii/description/
+
+Question 69 : https://leetcode.com/problems/palindromic-substrings/description/
+
+Question 70 : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
