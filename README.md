@@ -34,6 +34,8 @@ Question 67 : https://leetcode.com/problems/remove-all-occurrences-of-a-substrin
 
 Question 68 : https://leetcode.com/problems/valid-palindrome-ii/description/
 
-Question 69 : https://leetcode.com/problems/palindromic-substrings/description/
+Question 69 : https://leetcode.com/problems/decode-the-message/description/
 
-Question 70 : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
+Question 70 : https://leetcode.com/problems/palindromic-substrings/description/
+
+Question 71 : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
