@@ -1,0 +1,30 @@
+class Solution {
+public:
+
+    string createMapping(string str){
+        vector<char> isMapped(26,' ');
+        char start = 'a';
+        for(int i=0; i<str.length(); i++){
+            if(isMapped[str[i]-'a'] == ' '){
+                isMapped[str[i]-'a'] = start;
+                str[i] = start;
+                start++;
+            }else{
+                str[i] = isMapped[str[i]-'a'];
+            }
+        }
+        return str;
+    }
+
+    vector<string> findAndReplacePattern(vector<string>& words, string pattern) {
+        vector<string> ans;
+        string mappedPattern = createMapping(pattern);
+        for(int i=0; i<words.size(); i++){
+            string temp = createMapping(words[i]);
+            if(temp == mappedPattern){
+                ans.push_back(words[i]);
+            }
+        }
+        return ans;
+    }
+};
