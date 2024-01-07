@@ -39,3 +39,5 @@ Question 69 : https://leetcode.com/problems/decode-the-message/description/
 Question 70 : https://leetcode.com/problems/palindromic-substrings/description/
 
 Question 71 : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
+
+Question 72 : https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/description/
