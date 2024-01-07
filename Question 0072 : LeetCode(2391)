@@ -1,0 +1,45 @@
+class Solution {
+public:
+    int garbageCollection(vector<string>& garbage, vector<int>& travel) {
+        int plasticPick = 0;
+        int metalPick = 0;
+        int glassPick = 0;
+        
+        int plasticTravel = 0;
+        int metalTravel = 0;
+        int glassTravel = 0;
+
+        int plasticLast = 0;
+        int metalLast = 0;
+        int glassLast = 0;
+
+        for(int i=0; i<garbage.size(); i++){
+            string curr = garbage[i];
+            for(int j=0; j<curr.length(); j++){
+                if(curr[j]=='P'){
+                    plasticPick++;
+                    plasticLast = i;
+                }else if(curr[j]=='M'){
+                    metalPick++;
+                    metalLast = i;
+                }else if(curr[j]=='G'){
+                    glassPick++;
+                    glassLast = i;
+                }
+            }
+        }
+        // Calculate Travel time
+        for(int i=0; i<plasticLast; i++){
+            plasticTravel += travel[i];
+        }
+        for(int i=0; i<metalLast; i++){
+            metalTravel += travel[i];
+        }
+        for(int i=0; i<glassLast; i++){
+            glassTravel += travel[i];
+        }
+        
+        int ans = glassPick + glassTravel + metalPick + metalTravel + plasticPick + plasticTravel;
+        return ans;
+    }
+};
