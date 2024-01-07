@@ -41,3 +41,9 @@ Question 70 : https://leetcode.com/problems/palindromic-substrings/description/
 Question 71 : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
 
 Question 72 : https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/description/
+
+Question 73 : https://leetcode.com/problems/find-and-replace-pattern/description/
+
+Question 74 : https://leetcode.com/problems/custom-sort-string/description/
+
+Question 75 : https://leetcode.com/problems/number-of-laser-beams-in-a-bank/description/
