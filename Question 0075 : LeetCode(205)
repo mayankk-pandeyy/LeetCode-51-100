@@ -1,0 +1,27 @@
+class Solution {
+public:
+    string mapped(string s){
+        int n = s.length();
+        vector<char> map(256,' ');
+        char character = 'a';
+        
+        for(int i=0; i<n; i++){
+            if(map[s[i]] == ' '){
+                map[s[i]] = character;
+                s[i] = character;
+                character += 1;
+            }else{
+                s[i] = map[s[i]];
+            }
+        }
+        return s;
+    }
+
+    bool isIsomorphic(string s, string t) {
+        string pattern = mapped(t);
+        if(mapped(s) == pattern){
+            return true;
+        }
+        return false;
+    }
+};
