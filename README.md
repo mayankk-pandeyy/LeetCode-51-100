@@ -47,3 +47,5 @@ Question 73 : https://leetcode.com/problems/find-and-replace-pattern/description
 Question 74 : https://leetcode.com/problems/custom-sort-string/description/
 
 Question 75 : https://leetcode.com/problems/number-of-laser-beams-in-a-bank/description/
+
+Question 76 : https://leetcode.com/problems/isomorphic-strings/description/
