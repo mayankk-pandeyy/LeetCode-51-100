@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int numberOfBeams(vector<string>& bank) {
+        int prevLaserCount = 0;
+        int ans = 0;
+        for(int i=0; i<bank.size(); i++){
+            int oneCount = 0;
+            for(int j=0; j<bank[i].length(); j++){
+                if(bank[i][j] != '0'){
+                    oneCount++;
+                }
+            }
+            if(prevLaserCount == 0 && oneCount > 0){
+                prevLaserCount = oneCount;
+            }else if(prevLaserCount > 0 && oneCount >0){
+                ans = ans + (prevLaserCount * oneCount);
+                prevLaserCount = oneCount;
+            }
+        }
+        return ans;
+    }
+};
