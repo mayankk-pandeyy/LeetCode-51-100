@@ -1,0 +1,31 @@
+class Solution {
+public:
+    int myAtoi(string s) {
+        int num = 0;
+        int sign = 1;
+        int i=0;
+
+        while(s[i] == ' ' && i<s.length()){
+            i++;
+        }
+        if(i<s.length() && s[i] == '-' || s[i] == '+'){
+            if(s[i] == '-'){
+                sign = sign * (-1);
+            }else{
+                sign = sign * 1;
+            }
+            i++;
+        }
+        while(i<s.length() && isdigit(s[i])){
+            if((INT_MAX - (s[i]-'0'))/10 < num){
+                return (sign == 1) ? INT_MAX : INT_MIN;
+            }else{
+                num = num*10 + (s[i]-'0');
+            }
+            i++;
+        }
+
+        return num * sign;
+
+    }
+};
