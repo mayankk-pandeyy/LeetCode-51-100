@@ -8,7 +8,7 @@ Question 53 : https://leetcode.com/problems/k-diff-pairs-in-an-array/description
 
 Question 54 : https://leetcode.com/problems/find-k-closest-elements/description/
 
-Question 55 : https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/description/?envType=daily-question&envId=2023-12-30
+Question 55 : https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/description/
 
 Question 56 : https://leetcode.com/problems/search-insert-position/description/
 
@@ -53,3 +53,7 @@ Question 76 : https://leetcode.com/problems/number-of-laser-beams-in-a-bank/desc
 Question 77 : https://leetcode.com/problems/group-anagrams/description/
 
 Question 78 : https://leetcode.com/problems/longest-palindromic-substring/description/
+
+Question 79 : https://leetcode.com/problems/string-to-integer-atoi/description/
+
+Question 80 : https://leetcode.com/problems/string-compression/description/
