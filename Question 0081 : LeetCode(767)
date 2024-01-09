@@ -1,0 +1,40 @@
+class Solution {
+public:
+    string reorganizeString(string s) {
+        vector<int> count(26,0);
+        for(int i=0; i<s.size(); i++){
+            int index = s[i]-'a';
+            count[index]++;
+        }
+        char mostFreqChar;
+        int maxCount = INT_MIN;
+        for(int i=0; i<26; i++){
+            if(count[i] > maxCount){
+                maxCount = count[i];
+                mostFreqChar = i + 'a';
+            }
+        }
+        int index = 0;
+        while(maxCount > 0 && index < s.size()){
+            s[index] = mostFreqChar;
+            maxCount--;
+            index += 2;
+        }
+        if(maxCount != 0){
+            return "";
+        }
+        count[mostFreqChar - 'a'] = 0;
+        int m = 1;
+        for(int i=0; i<26; i++){
+            while(count[i] > 0){
+                if(index >= s.size()){
+                    index = 1;
+                }
+                s[index] = i + 'a';
+                count[i]--;
+                index += 2;
+            }
+        }
+        return s;
+    }
+};
