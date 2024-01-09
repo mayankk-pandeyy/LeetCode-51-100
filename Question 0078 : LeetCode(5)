@@ -1,0 +1,32 @@
+class Solution {
+public:
+    string sizeExpand(string& s, int i, int j){
+        while(i >= 0 && j < s.length() && s[i] == s[j]){
+            i--;
+            j++;
+        }
+        return (s.substr(i+1, j-i-1));
+    }
+
+
+    string longestPalindrome(string s) {
+        string ans = "";
+        for(int i=0; i<s.length(); i++){
+            
+            int j = i;
+            // Odd waale k liye
+            string oddLengthString = sizeExpand(s, i, j);
+            
+            // Even waale k liye
+            j = i+1;
+            string evenLengthString = sizeExpand(s, i, j);
+        
+            if(oddLengthString.length() > evenLengthString.length() && oddLengthString.length() > ans.length()){
+                ans = oddLengthString;
+            }else if(oddLengthString.length() < evenLengthString.length() && evenLengthString.length() > ans.length()){
+                ans = evenLengthString;
+            }
+        }
+        return ans;
+    }
+};
