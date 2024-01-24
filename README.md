@@ -73,3 +73,5 @@ Question 86 : https://leetcode.com/problems/house-robber/description/
 Question 87 : https://leetcode.com/problems/set-mismatch/description/
 
 Question 88 : https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/description/
+
+Question 89 : https://leetcode.com/problems/1-bit-and-2-bit-characters/description/
