@@ -1,0 +1,22 @@
+class Solution {
+public:
+    vector<int> sequentialDigits(int low, int high) {
+        string temp = "123456789";
+        vector<int> ans;
+        for(int i=0; i<temp.size(); i++){
+            string x = "";
+            for(int j=i; j<temp.size(); j++){
+                x += temp[j];
+                int num = stoi(x);
+                if(num >= low && num <=high){
+                    ans.push_back(num);
+                }
+                if(num > high){
+                    break;
+                }
+            }
+        }
+        sort(ans.begin(), ans.end());
+        return ans;
+    }
+};
