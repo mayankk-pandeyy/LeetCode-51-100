@@ -87,3 +87,5 @@ Question 93 : https://leetcode.com/problems/sequential-digits/description/
 Question 94 : https://leetcode.com/problems/check-balanced-string/description/
 
 Question 95 : https://leetcode.com/problems/excel-sheet-column-number/description/
+
+Question 96 : https://leetcode.com/problems/excel-sheet-column-title/description/
