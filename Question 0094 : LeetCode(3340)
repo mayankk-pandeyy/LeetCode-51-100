@@ -1,0 +1,19 @@
+class Solution {
+public:
+    bool isBalanced(string num) {
+        int evenIndexSum = 0;
+        int oddIndexSum = 0;
+
+        for(int i=0; i< num.size(); i++){
+            if(i%2 == 0){
+                evenIndexSum += num[i] - '0';
+            }else{
+                oddIndexSum += num[i] - '0';
+            }
+        }
+        if(evenIndexSum == oddIndexSum){
+            return true;
+        }
+        return false;
+    }
+};
