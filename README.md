@@ -93,3 +93,7 @@ Question 96 : https://leetcode.com/problems/excel-sheet-column-title/description
 Question 97 : https://leetcode.com/problems/slowest-key/description/
 
 Question 98 : https://leetcode.com/problems/contains-duplicate/description/
+
+Question 99 : https://leetcode.com/problems/two-sum/description/
+
+Question 100 : https://leetcode.com/problems/sort-colors/description/
