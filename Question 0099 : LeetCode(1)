@@ -1,0 +1,21 @@
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        vector<int> ans;
+        for(int i=0; i<nums.size(); i++){
+            int firstNum = nums[i];
+            int secondNum = target - nums[i];
+            auto index = find(nums.begin(), nums.end(), secondNum);
+
+            if(index != nums.end()){
+                int ind = index - nums.begin();
+                if(ind != i){
+                    ans.push_back(i);
+                    ans.push_back(ind);
+                    break;
+                }
+            }
+        }
+        return ans;
+    }
+};
