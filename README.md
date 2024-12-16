@@ -91,3 +91,5 @@ Question 95 : https://leetcode.com/problems/excel-sheet-column-number/descriptio
 Question 96 : https://leetcode.com/problems/excel-sheet-column-title/description/
 
 Question 97 : https://leetcode.com/problems/slowest-key/description/
+
+Question 98 : https://leetcode.com/problems/contains-duplicate/description/
